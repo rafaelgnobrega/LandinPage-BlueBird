@@ -3,7 +3,7 @@ import './Beneficio.css'
 
 function Beneficio() {
     return (
-      <div className="container2">olá mundo!</div>
+      <div className="container2">Teste!</div>
     );
   }
   
