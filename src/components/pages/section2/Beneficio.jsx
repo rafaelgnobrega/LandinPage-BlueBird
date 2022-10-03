@@ -1,6 +1,8 @@
 import React from 'react';
 import './Beneficio.css';
 import Mao from '../../image/mao.svg';
+import Sorriso from '../../image/sorriso.svg';
+import Dinheiro from '../../image/dinheiro.svg';
 
 function Beneficio() {
   return (
@@ -15,7 +17,21 @@ function Beneficio() {
             <img src={Mao} />
             <div className="texto">
             <p className="titulo">Contratação facilitada</p>
-            <p>O processo é simples e, com as coberturas adicionai, você deixa tudo do seu jeito</p>
+            <p>O processo é simples e, com as <br></br>coberturas adicionai, você deixa <br></br> tudo do seu jeito</p>
+            </div>
+          </div>
+          <div className="Beneficio2">
+            <img src={Sorriso} />
+            <div className="texto2">
+            <p className="titulo2">Qualidade no atendimento</p>
+            <p>A BlueBird preza pela qualidade nos<br></br> serviços e atendimento!</p>
+            </div>
+          </div>
+          <div className="Beneficio3">
+            <img src={Dinheiro} />
+            <div className="texto3">
+            <p className="titulo3">Valores para você</p>
+            <p>Oferecemos seguros simples com <br></br>coberturas essenciais, tornando os <br></br> preços mais acessíveis</p>
             </div>
           </div>
         </div>

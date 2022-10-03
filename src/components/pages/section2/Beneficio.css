@@ -15,7 +15,6 @@
 .container2 section {
   width: 1564px;
   height: 508.02px;
-  border: solid 1px #000;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -31,6 +30,7 @@
   text-align: center;
   letter-spacing: 1.2px;
   color: #5F5F5F;
+  margin-bottom: 84px;
 }
 .container2 section h2 span {
   color: #2092E3;
@@ -38,6 +38,10 @@
 .container2 section .seguraBenecifio {
   width: 1564px;
   height: 289.53px;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 57px;
+       column-gap: 57px;
 }
 .container2 section .seguraBenecifio .Beneficio1 {
   width: 482.92px;
@@ -47,9 +51,8 @@
   align-items: center;
 }
 .container2 section .seguraBenecifio .Beneficio1 .texto {
-  width: 378px;
+  width: 100%;
   height: 122.66px;
-  border: solid 1px #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,8 +65,80 @@
   line-height: 39px;
   letter-spacing: 1.04053px;
   color: #2C4C63;
+  width: 100%;
+  margin-bottom: 7px;
 }
 .container2 section .seguraBenecifio .Beneficio1 .texto p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.6667px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.669394px;
+  color: #676767;
+}
+.container2 section .seguraBenecifio .Beneficio2 {
+  width: 482.92px;
+  height: 289.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 section .seguraBenecifio .Beneficio2 .texto2 {
+  width: 100%;
+  height: 122.66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 section .seguraBenecifio .Beneficio2 .texto2 .titulo2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 1.04053px;
+  color: #2C4C63;
+  width: 100%;
+  margin-bottom: 7px;
+}
+.container2 section .seguraBenecifio .Beneficio2 .texto2 p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.6667px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.669394px;
+  color: #676767;
+}
+.container2 section .seguraBenecifio .Beneficio3 {
+  width: 482.92px;
+  height: 289.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 section .seguraBenecifio .Beneficio3 .texto3 {
+  width: 100%;
+  height: 122.66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 section .seguraBenecifio .Beneficio3 .texto3 .titulo3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 1.04053px;
+  color: #2C4C63;
+  width: 100%;
+  margin-bottom: 7px;
+}
+.container2 section .seguraBenecifio .Beneficio3 .texto3 p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
