@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
 .container3 {
-  background-color: blue;
+  width: 100vw;
+  height: 828vh;
+  background-image: url(../../image/background\ Chat.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #ffffff;
+}
+.container3 section {
+  width: 1564px;
+  height: 828px;
 }/*# sourceMappingURL=Chat.css.map */
