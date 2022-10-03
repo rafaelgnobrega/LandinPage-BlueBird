@@ -1,3 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 .container3 {
-   background-color: pink;
+    width: 100vw;
+    height: 828vh;
+    background-image: url(../../image/background\ Chat.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    section {
+        width: 1564px;
+        height: 828px;
+        .container_chat{
+        width: 777.4px;
+        height: 395.22px;
+        h1{
+            width: 777.33px;
+            height: 118px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50.67px;
+            line-height: 58.67px;
+            letter-spacing:1.2 px;
+            color: #FFFFFF;
+        }
+        p{ 
+            width: 618.67px;
+            height: 137px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 45.39px;
+            letter-spacing:1.44 px;
+            color: #FCFCFC;
+        }
+        button{
+            height: 324.53px
+            width: 230px;
+            border-radius: 60px;
+            background-color: #019beb;
+            border: none;
+            margin-top: 29px;
+
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+        
+       
+
+        
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
