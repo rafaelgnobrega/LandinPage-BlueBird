@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,4 +11,84 @@
 .container2 {
     width: 100vw;
     height: 665.33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    section {
+        width: 1564px;
+        height: 508.02px;
+        border: solid 1px #000;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            width: 1058.67px;
+            height: 134px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50.6667px;
+            line-height: 67px;
+            text-align: center;
+            letter-spacing: 1.2px;
+            color: #5F5F5F;
+
+            span {
+                color: #2092E3;
+            }
+
+        }
+
+        .seguraBenecifio {
+            width: 1564px;
+            height: 289.53px;
+
+            .Beneficio1 {
+                width: 482.92px;
+                height: 289.33px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .texto {
+                    width: 378px;
+                    height: 122.66px;
+                    border: solid 1px #000;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+
+                    .titulo {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 39px;
+                        letter-spacing: 1.04053px;
+                        color: #2C4C63;
+                    }
+
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18.6667px;
+                        line-height: 25px;
+                        text-align: center;
+                        letter-spacing: 0.669394px;
+                        color: #676767;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+
 }
