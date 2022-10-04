@@ -61,4 +61,18 @@
   background-color: #019beb;
   border: none;
   margin-top: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container3 section .container_chat button a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: right;
+  letter-spacing: 1.0687px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=Chat.css.map */
