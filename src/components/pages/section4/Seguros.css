@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container4 {
+  width: 100vw;
+  height: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+}
+.container4 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #fff;
+}
+.container4 section h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.6667px;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  color: #FFFFFF;
+}
+.container4 section .coberturas {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.6667px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #FFFFFF;
+}
+.container4 section .coberturas span {
+  color: #2092E3;
+}
+.container4 section .container-card {
+  width: 1678.28px;
+  height: 525.33px;
+}
+.container4 section .container-card .card1 {
+  width: 384.7px;
+  height: 525.33px;
+  border-radius: 11.6224px;
+  background-image: url(../../image/CarroFogo.png);
+  display: flex;
+}
+.container4 section .container-card .card1 .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2714px;
+  line-height: 28px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+}
+.container4 section .container-card .card1 .tipo-seguro {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+}
+.container4 section h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.6667px;
+  line-height: 76px;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #FFFFFF;
+}
+.container4 section h3 .negrito {
+  font-weight: 700;
+}/*# sourceMappingURL=Seguros.css.map */
