@@ -8,14 +8,50 @@
 
 .container3 {
   width: 100vw;
-  height: 828vh;
+  height: 828px;
   background-image: url(../../image/background\ Chat.svg);
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
-  border: solid 1px #ffffff;
+  align-items: center;
 }
 .container3 section {
   width: 1564px;
   height: 828px;
+  align-items: flex-end;
+}
+.container3 section .container_chat {
+  width: 777.4px;
+  height: 395.22px;
+}
+.container3 section .container_chat h1 {
+  width: 777.33px;
+  height: 118px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.67px;
+  line-height: 58.67px;
+  letter-spacing: 1.2 px;
+  color: #FFFFFF;
+  text-align: right;
+}
+.container3 section .container_chat p {
+  width: 618.67px;
+  height: 137px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45.39px;
+  letter-spacing: 1.44 px;
+  color: #FCFCFC;
+  text-align: right;
+}
+.container3 section .container_chat button {
+  height: 72px;
+  width: 230px;
+  border-radius: 60px;
+  background-color: #019beb;
+  border: none;
+  margin-top: 29px;
 }/*# sourceMappingURL=Chat.css.map */

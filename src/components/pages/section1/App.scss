@@ -9,11 +9,11 @@
 
 .container {
     width: 100vw;
-    height: 93vh;
+    height: 93vh; 
     background-image: url(../../image/background1.svg);
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 
 
@@ -110,10 +110,8 @@
                 line-height: 29px;
                 letter-spacing: 0.266667px;
                 color: #FFFFFF;
-
                 text-decoration: none;
             }
         }
-
     }
 }
