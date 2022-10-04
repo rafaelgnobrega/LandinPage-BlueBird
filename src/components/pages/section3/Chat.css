@@ -17,6 +17,8 @@
 .container3 section {
   width: 1564px;
   height: 828px;
+  display: flex;
+  justify-content: center;
 }
 .container3 section .container_chat {
   width: 777.4px;
