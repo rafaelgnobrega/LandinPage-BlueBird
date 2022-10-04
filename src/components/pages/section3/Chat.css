@@ -10,9 +10,12 @@
   width: 100vw;
   height: 828px;
   background-image: url(../../image/background\ Chat.svg);
+  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .container3 section {
   width: 1564px;
@@ -55,12 +58,11 @@
   margin-bottom: 44px;
 }
 .container3 section .container_chat button {
-  height: 72px;
-  width: 230px;
+  height: 80.55px;
+  width: 324.53px;
   border-radius: 60px;
   background-color: #019beb;
   border: none;
-  margin-top: 29px;
   display: flex;
   align-items: center;
   justify-content: center;

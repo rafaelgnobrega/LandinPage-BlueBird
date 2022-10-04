@@ -11,10 +11,13 @@
     width: 100vw;
     height: 828px;
     background-image: url(../../image/background\ Chat.svg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+
 
     section {
         width: 1564px;
@@ -29,7 +32,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            
+
             h1 {
                 width: 777.33px;
                 height: 118px;
@@ -59,26 +62,25 @@
             }
 
             button {
-                height: 72px;
-                width: 230px;
+                height: 80.55px;
+                width: 324.53px;
                 border-radius: 60px;
                 background-color: #019beb;
                 border: none;
-                margin-top: 29px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                
-                a{
+
+                a {
                     text-decoration: none;
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 600;
                     font-size: 32px;
-                    line-height: 40px;                                      
+                    line-height: 40px;
                     text-align: right;
-                    letter-spacing: 1.0687px;                    
-                    color: #FFFFFF; ;
+                    letter-spacing: 1.0687px;
+                    color: #FFFFFF;
                 }
             }
         }
