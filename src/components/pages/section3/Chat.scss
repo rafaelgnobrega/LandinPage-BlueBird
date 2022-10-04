@@ -19,7 +19,9 @@
         width: 1564px;
         height: 828px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+        align-items: center;
+        
 
         .container_chat {
             width: 777.4px;

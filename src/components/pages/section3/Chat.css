@@ -18,7 +18,8 @@
   width: 1564px;
   height: 828px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
 }
 .container3 section .container_chat {
   width: 777.4px;
@@ -38,6 +39,7 @@
   letter-spacing: 1.2 px;
   color: #FFFFFF;
   text-align: right;
+  margin-bottom: 15px;
 }
 .container3 section .container_chat p {
   width: 618.67px;
@@ -50,6 +52,7 @@
   letter-spacing: 1.44 px;
   color: #FCFCFC;
   text-align: right;
+  margin-bottom: 44px;
 }
 .container3 section .container_chat button {
   height: 72px;
