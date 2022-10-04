@@ -17,11 +17,13 @@
 .container3 section {
   width: 1564px;
   height: 828px;
-  align-items: flex-end;
 }
 .container3 section .container_chat {
   width: 777.4px;
   height: 395.22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .container3 section .container_chat h1 {
   width: 777.33px;
