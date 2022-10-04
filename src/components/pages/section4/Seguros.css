@@ -19,7 +19,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px #fff;
 }
 .container4 section h2 {
   font-family: "Montserrat";
@@ -30,6 +29,7 @@
   text-align: center;
   letter-spacing: 1.2px;
   color: #FFFFFF;
+  margin-bottom: 13px;
 }
 .container4 section .coberturas {
   font-family: "Montserrat";
@@ -40,13 +40,21 @@
   text-align: center;
   letter-spacing: 0.266667px;
   color: #FFFFFF;
+  margin-bottom: 53px;
 }
 .container4 section .coberturas span {
   color: #2092E3;
 }
 .container4 section .container-card {
   width: 1678.28px;
-  height: 525.33px;
+  height: 525px;
+  margin-bottom: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 34px;
+       column-gap: 34px;
 }
 .container4 section .container-card .card1 {
   width: 384.7px;
@@ -54,6 +62,7 @@
   border-radius: 11.6224px;
   background-image: url(../../image/CarroFogo.png);
   display: flex;
+  position: relative;
 }
 .container4 section .container-card .card1 .title {
   font-family: "Montserrat";
@@ -63,6 +72,9 @@
   line-height: 28px;
   letter-spacing: 0.232448px;
   color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 140.71px;
 }
 .container4 section .container-card .card1 .tipo-seguro {
   font-family: "Montserrat";
@@ -72,6 +84,105 @@
   line-height: 35px;
   letter-spacing: 0.232448px;
   color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 53.28px;
+}
+.container4 section .container-card .card2 {
+  width: 384.7px;
+  height: 525px;
+  border-radius: 11.6224px;
+  background-image: url(../../image/CarroBate.png);
+  display: flex;
+  position: relative;
+}
+.container4 section .container-card .card2 .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2714px;
+  line-height: 28px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 140.71px;
+}
+.container4 section .container-card .card2 .tipo-seguro {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 53.28px;
+}
+.container4 section .container-card .card3 {
+  width: 384.7px;
+  height: 525px;
+  border-radius: 11.6224px;
+  background-image: url(../../image/Reboque.png);
+  display: flex;
+  position: relative;
+}
+.container4 section .container-card .card3 .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2714px;
+  line-height: 28px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 140.71px;
+}
+.container4 section .container-card .card3 .tipo-seguro {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 53.28px;
+}
+.container4 section .container-card .card4 {
+  width: 384.7px;
+  height: 525px;
+  border-radius: 11.6224px;
+  background-image: url(../../image/Furto.png);
+  display: flex;
+  position: relative;
+}
+.container4 section .container-card .card4 .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2714px;
+  line-height: 28px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 140.71px;
+}
+.container4 section .container-card .card4 .tipo-seguro {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.232448px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 23.24px;
+  bottom: 53.28px;
 }
 .container4 section h3 {
   font-family: "Montserrat";
