@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container6 {
+    width: 100vw;
+    height: 996px;
+    background-image: url(../../image/backgroundinput.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    section {
+        width: 645.33px;
+        height: 920.86px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .seguratexto{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            margin-bottom: 30px;
+    
+
+
+            h1 {
+            
+            
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18.67px;
+                line-height: 25.72px;
+                letter-spacing: 0.11px;
+                color: #252B42;
+            }
+    
+            
+    
+            p {
+                
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 42.87px;
+                line-height: 31.09px;
+                letter-spacing: 0.21px;
+                color: #252B42;
+            }
+
+        }
+
+
+       
+
+        form{
+            height:524.9px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 21px;
+
+            .container-input {
+                width: 645.33px;                            
+                display: flex;
+                flex-direction: row; 
+                column-gap: 21px;  
+                       
+    
+                .esquerda {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 21px;
+
+                    input {
+                        display: flex;
+                        flex-direction: column;
+                        width: 317.24px;
+                        height: 53.59px;
+                        background: #F9F9F9;
+                        border: 1.07175px solid #E6E6E6;
+                        border-radius: 5.35873px; 
+                        
+                    }
+                    
+                }
+    
+                .direita {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 21px;
+
+                    input {
+                        display: flex;
+                        flex-direction: column;
+                        width: 317.24px;
+                        height: 53.59px;
+                        background: #F9F9F9;
+                        border: 1.07175px solid #E6E6E6;
+                        border-radius: 5.35873px;  
+                                       
+                    }
+    
+                }                      
+    
+    
+    
+            }
+
+            .areatexto{
+                height: 150.04px;
+                width: 100%;
+                background: #F9F9F9;
+                border: 1.07175px solid #BDBDBD;
+                border-radius: 5.35873px;
+                margin-bottom: 30px;
+            }
+
+        
+
+
+        }
+
+        button {
+            height: 56.15px;
+            width: 229.74px;
+            border-radius: 60px;
+            background-color: #000;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18.6667px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 0.22654px;
+            margin-bottom: 39px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        
+
+
+    }
+
+}

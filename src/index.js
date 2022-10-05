@@ -5,6 +5,8 @@ import Beneficio from './components/pages/section2/Beneficio';
 import Chat from './components/pages/section3/Chat';
 import Seguros from './components/pages/section4/Seguros';
 import Preco from './components/pages/section5/preco';
+import Cotacao from './components/pages/section6/cotacao';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +16,7 @@ root.render(
     <Chat />
     <Seguros />
     <Preco />
-  </React.StrictMode>
+    <Cotacao />
+   </React.StrictMode>
 );
 
