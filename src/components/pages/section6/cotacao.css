@@ -48,7 +48,7 @@
   color: #252B42;
 }
 .container6 section form {
-  height: 524.9px;
+  height: 210px;
   display: flex;
   flex-direction: column;
   row-gap: 21px;
@@ -88,13 +88,12 @@
   border: 1.07175px solid #E6E6E6;
   border-radius: 5.35873px;
 }
-.container6 section form .areatexto {
-  height: 150.04px;
+.container6 section form .email {
+  height: 53.59px;
   width: 100%;
   background: #F9F9F9;
-  border: 1.07175px solid #BDBDBD;
+  border: 1.07175px solid #E6E6E6;
   border-radius: 5.35873px;
-  margin-bottom: 30px;
 }
 .container6 section button {
   height: 56.15px;

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.container7 {
+    width: 100vw;
+    height: 362.67px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    section {
+        width: 1400px;
+        height: 202px;
+        display: flex;
+        justify-content: space-between;
+
+        .contatos {
+            display: flex;
+            flex-direction: column;
+            row-gap: 26px;
+
+            .container-contatos {
+                display: flex;
+                flex-direction: column;
+                row-gap: 13px;
+
+                .display-align {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 13px;
+                    align-items: center;
+
+                    a {
+                        text-decoration: none;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18.6667px;
+                        line-height: 32px;
+                        letter-spacing: 0.266667px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .botao {
+            height: 202px;
+            display: flex;
+            align-items: flex-start;
+
+            button {
+                height: 70px;
+                width: 230px;
+                border-radius: 60px;
+                background-color: #019beb;
+                border: none;
+
+                a {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18.6667px;
+                    line-height: 29px;
+                    letter-spacing: 0.266667px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+
+                }
+            }
+        }
+    }
+}

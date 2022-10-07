@@ -115,4 +115,13 @@
   flex-direction: row;
   -moz-column-gap: 11px;
        column-gap: 11px;
+}
+.container5 section .plano .plano1 .containerdireito .direito p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.6667px;
+  line-height: 31px;
+  letter-spacing: 0.22654px;
+  color: #252B42;
 }/*# sourceMappingURL=preco.css.map */
