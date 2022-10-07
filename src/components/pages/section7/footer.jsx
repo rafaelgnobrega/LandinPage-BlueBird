@@ -26,7 +26,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="botao">
-                    <button><a href="#">Solicitar cotação</a></button>
+                    <button><a href="#cotacao">Solicitar cotação</a></button>
                 </div>
             </section>
         </div>

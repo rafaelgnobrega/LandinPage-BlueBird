@@ -4,7 +4,7 @@ import './cotacao.css';
 
 function Cotacao() {
     return (
-        <div className="container6">
+        <div className="container6" id='cotacao'>
             <section>
                 <div className="seguratexto">
                     <h1>Contate-nos</h1>

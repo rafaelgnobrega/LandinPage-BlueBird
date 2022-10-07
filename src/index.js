@@ -7,6 +7,7 @@ import Seguros from './components/pages/section4/Seguros';
 import Preco from './components/pages/section5/preco';
 import Cotacao from './components/pages/section6/cotacao';
 import Footer from './components/pages/section7/footer';
+import './index.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
