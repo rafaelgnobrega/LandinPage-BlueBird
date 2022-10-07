@@ -51,7 +51,7 @@
 .container7 section .botao {
   height: 202px;
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 .container7 section .botao button {
   height: 70px;
@@ -59,6 +59,7 @@
   border-radius: 60px;
   background-color: #019beb;
   border: none;
+  transition: all 0.3s ease;
 }
 .container7 section .botao button a {
   font-family: "Montserrat";
@@ -69,4 +70,8 @@
   letter-spacing: 0.266667px;
   color: #FFFFFF;
   text-decoration: none;
+}
+.container7 section .botao button:hover {
+  background-color: #0068a0;
+  transition: all 0.3s ease;
 }/*# sourceMappingURL=footer.css.map */

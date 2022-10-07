@@ -37,6 +37,7 @@
   border-radius: 60px;
   background-color: #019beb;
   border: none;
+  transition: all 0.3s ease;
 }
 .container header nav button a {
   font-family: "Montserrat";
@@ -47,6 +48,10 @@
   letter-spacing: 0.266667px;
   color: #FFFFFF;
   text-decoration: none;
+}
+.container header nav button:hover {
+  background-color: #0068a0;
+  transition: all 0.3s ease;
 }
 .container section {
   width: 1400px;
@@ -86,6 +91,7 @@
   background-color: #019beb;
   border: none;
   margin-top: 29px;
+  transition: all 0.3s ease;
 }
 .container section button a {
   font-family: "Montserrat";
@@ -96,4 +102,8 @@
   letter-spacing: 0.266667px;
   color: #FFFFFF;
   text-decoration: none;
+}
+.container section button:hover {
+  background-color: #0068a0;
+  transition: all 0.3s ease;
 }/*# sourceMappingURL=App.css.map */

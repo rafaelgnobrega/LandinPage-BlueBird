@@ -66,6 +66,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
 }
 .container3 section .container_chat button a {
   text-decoration: none;
@@ -77,4 +78,8 @@
   text-align: right;
   letter-spacing: 1.0687px;
   color: #FFFFFF;
+}
+.container3 section .container_chat button:hover {
+  background-color: #0068a0;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=Chat.css.map */

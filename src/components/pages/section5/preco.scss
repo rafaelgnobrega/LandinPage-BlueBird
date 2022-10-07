@@ -95,6 +95,10 @@
                     border-radius: 50.9714px;
                     margin-bottom: 39px;
                     border: none;
+                    transition: all 0.3s ease;
+
+
+                    
 
                     a {
                         font-family: 'Montserrat';
@@ -106,8 +110,14 @@
                         letter-spacing: 0.22654px;
                         margin-bottom: 39px;
                         color: #FFFFFF;
+                        
                     }
                 }
+                button:hover {
+                        background-color: #0068a0;
+                        transition: all 0.5s ease;
+                    }
+                
 
                 .containerdireito {
                     display: flex;

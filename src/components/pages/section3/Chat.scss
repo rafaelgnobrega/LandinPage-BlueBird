@@ -70,6 +70,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transition: all 0.3s ease;
+
 
                 a {
                     text-decoration: none;
@@ -82,6 +84,11 @@
                     letter-spacing: 1.0687px;
                     color: #FFFFFF;
                 }
+            }
+
+            button:hover {
+                background-color: #0068a0;
+                transition: all 0.5s ease;
             }
         }
     }

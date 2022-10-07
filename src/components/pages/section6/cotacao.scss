@@ -26,18 +26,18 @@
         justify-content: center;
         align-items: center;
 
-        .seguratexto{
+        .seguratexto {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             width: 100%;
             margin-bottom: 30px;
-    
+
 
 
             h1 {
-            
-            
+
+
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
@@ -46,11 +46,11 @@
                 letter-spacing: 0.11px;
                 color: #252B42;
             }
-    
-            
-    
+
+
+
             p {
-                
+
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
@@ -63,98 +63,109 @@
         }
 
 
-       
 
-        form{
-            height:210px;
+
+        form {
+            height: 280px;
             display: flex;
             flex-direction: column;
             row-gap: 21px;
+            align-items: center;
 
             .container-input {
-                width: 645.33px;                            
+                width: 645.33px;
                 display: flex;
-                flex-direction: row; 
-                column-gap: 21px;  
-                       
-    
+                flex-direction: row;
+                column-gap: 21px;
+
+
                 .esquerda {
                     display: flex;
                     flex-direction: column;
-                    row-gap: 21px;
+
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: 0.214349px;
+                        color: #6b6b6b;
+
+                    }
+
 
                     input {
+                        color: black;
                         display: flex;
                         flex-direction: column;
                         width: 317.24px;
                         height: 53.59px;
                         background: #F9F9F9;
                         border: 1.07175px solid #E6E6E6;
-                        border-radius: 5.35873px; 
-                        
+                        border-radius: 5.35873px;
+
                     }
-                    
+
                 }
-    
+
                 .direita {
                     display: flex;
                     flex-direction: column;
-                    row-gap: 21px;
+
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: 0.214349px;
+                        color: #6b6b6b;
+
+                    }
 
                     input {
+                        color: black;
                         display: flex;
                         flex-direction: column;
                         width: 317.24px;
                         height: 53.59px;
                         background: #F9F9F9;
                         border: 1.07175px solid #E6E6E6;
-                        border-radius: 5.35873px;  
-                                       
+                        border-radius: 5.35873px;
+
                     }
-    
-                }                      
-    
-    
-    
+                }
             }
 
-            .email{
-                height: 53.59px;
-                width: 100%;
-                background: #F9F9F9;
-                border: 1.07175px solid #E6E6E6;
-                border-radius: 5.35873px;
+            button {
+                height: 56.15px;
+                width: 229.74px;
+                border-radius: 60px;
+                background-color: #000;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18.6667px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 0.22654px;
+                color: #FFFFFF;
+                text-decoration: none;
+                transition: all 0.5s ease;
+
             }
 
-        
-
-
+            button:hover {
+                background-color: transparent;
+                border: solid 3px #000;
+                color: #000000;
+                transition: all 0.5s ease;
+            }
         }
-
-        button {
-            height: 56.15px;
-            width: 229.74px;
-            border-radius: 60px;
-            background-color: #000;
-            border: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18.6667px;
-            line-height: 25px;
-            text-align: center;
-            letter-spacing: 0.22654px;
-            margin-bottom: 39px;
-            color: #FFFFFF;
-            text-decoration: none;
-        }
-
-        
-
-
     }
-
 }

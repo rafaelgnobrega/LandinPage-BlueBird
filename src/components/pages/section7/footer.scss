@@ -56,7 +56,7 @@
         .botao {
             height: 202px;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-end;
 
             button {
                 height: 70px;
@@ -64,6 +64,8 @@
                 border-radius: 60px;
                 background-color: #019beb;
                 border: none;
+                transition: all 0.3s ease;
+
 
                 a {
                     font-family: 'Montserrat';
@@ -77,6 +79,13 @@
 
                 }
             }
+            
+            button:hover {
+                background-color: #0068a0;
+                transition: all 0.3s ease;
+
+            }
+
         }
     }
 }

@@ -10,20 +10,25 @@ function Cotacao() {
                     <h1>Contate-nos</h1>
                     <p>Faça sua cotação</p>
                 </div>
-
-                <form>
+                <form action="https://formsubmit.co/bluebird.suporte@gmail.com" method="POST">
                     <div className="container-input">
                         <div className="esquerda">
-                            <input type="text" id="name" name="name" placeholder="    Nome completo" ></input>
+                            <p>Nome completo</p>
+                            <input type="text" id="name" name="Nome" placeholder="    Nome completo" required></input>
+                            <p>Digite seu e-mail</p>
+                            <input type="email" id="email" name="Email" placeholder="    Email" required></input>
                         </div>
                         <div className="direita" >
-                            <input type="text" id="date" name="date" placeholder="    Data de nascimento" ></input>
+                            <p>Data de nascimento</p>
+                            <input type="date" id="date" name="Data de Nascimento" placeholder="    Data de nascimento" required></input>
+                            <p>Telefone</p>
+                            <input type="text" id="telefone" name="Telefone" placeholder="    Digite seu telefone" required></input>
                         </div>
                     </div>
-                    <input type="email" className='email' id="email" name="email" placeholder="    Email" ></input>
+                    <button type='submit'>Solicitar cotação</button>
+                    <input type="hidden" name="_subject" value="Solicitação de Cotação" />
+                    <input type="hidden" name="_autoresponse" value="Nós da BlueBird recebemos a sua solicitação para realizar a cotação de seguros de seu veículo. Entraremos em contato com você dentro de 24 horas!"/>
                 </form>
-
-                <button>Realizar cotação</button>
             </section>
         </div>
     )
