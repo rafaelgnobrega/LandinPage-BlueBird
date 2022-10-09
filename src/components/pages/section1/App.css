@@ -57,6 +57,8 @@
   width: 1400px;
   height: 468.67px;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 .container section h1 {
   width: 1208px;
@@ -106,4 +108,25 @@
 .container section button:hover {
   background-color: #0068a0;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container header {
+    justify-content: space-around;
+  }
+  .container section {
+    width: 80%;
+    height: 80%;
+  }
+  .container section h1 {
+    width: 777px;
+    height: 200px;
+    font-size: 60px;
+    margin-bottom: 29px;
+  }
 }/*# sourceMappingURL=App.css.map */
