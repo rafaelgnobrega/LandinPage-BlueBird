@@ -159,3 +159,80 @@
         }
     }
 }
+
+// ----------- Responsividade para telas de tablet -----------
+
+@media screen and (max-width: 950px) {
+
+    .container {
+        height: 700px;
+
+        header {
+            nav {
+                    display: none;
+            }
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                width: 555px;
+                height: 100px;
+                font-size: 40px;
+                margin-bottom: 29px;
+                line-height: 50px;
+                text-align: center;
+            }
+
+            p {
+                width: 340px;
+                height: 80px;
+                font-size: 22px;
+                line-height: 30px;
+                letter-spacing: 0.266667px;
+                margin-top: 29px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// ----------- Responsividade para telas de celular -----------
+
+@media screen and (max-width: 479px) {
+
+    .container {
+        height: 700px;
+
+        header {
+            nav {
+                    display: none;
+            }
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+
+            h1{
+                width: 358px;
+                height: 250px;
+                font-size: 36px;
+                margin-bottom: 0px;
+                line-height: 40px;
+                text-align: center;
+            }
+
+            p{
+                width: 280px;
+                height: 80px;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+            }
+        }
+    }
+}

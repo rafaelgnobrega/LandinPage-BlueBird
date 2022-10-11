@@ -52,7 +52,6 @@
 
         .container-card {
             width: 1678.28px;
-            height: 525px;
             margin-bottom: 53px;
             display: flex;
             flex-direction: row;
@@ -60,153 +59,165 @@
             justify-content: center;
             column-gap: 34px;
 
-            .card1 {
-                width: 384.7px;
-                height: 525.33px;
-                border-radius: 11.6224px;
-                background-image: url(../../image/CarroFogo.png);
+            .segura-dupla {
                 display: flex;
-                position: relative;
+                column-gap: 34px;
 
-                .title {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16.2714px;
-                    line-height: 28px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 140.71px;
-
+                .card1 {
+                    width: 384.7px;
+                    height: 525.33px;
+                    border-radius: 11.6224px;
+                    background-image: url(../../image/CarroFogo.png);
+                    display: flex;
+                    position: relative;
+    
+                    .title {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16.2714px;
+                        line-height: 28px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 140.71px;
+    
+                    }
+    
+                    .tipo-seguro {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 35px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 53.28px;
+    
+                    }
                 }
-
-                .tipo-seguro {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 24px;
-                    line-height: 35px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 53.28px;
-
+    
+                .card2 {
+                    width: 384.7px;
+                    height: 525px;
+                    border-radius: 11.6224px;
+                    background-image: url(../../image/CarroBate.png);
+                    display: flex;
+                    position: relative;
+    
+                    .title {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16.2714px;
+                        line-height: 28px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 140.71px;
+    
+                    }
+    
+                    .tipo-seguro {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 35px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 53.28px;
+    
+                    }
                 }
             }
 
-            .card2 {
-                width: 384.7px;
-                height: 525px;
-                border-radius: 11.6224px;
-                background-image: url(../../image/CarroBate.png);
+            .segura-dupla2 {
                 display: flex;
-                position: relative;
+                column-gap: 34px;
 
-                .title {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16.2714px;
-                    line-height: 28px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 140.71px;
-
+                .card3 {
+                    width: 384.7px;
+                    height: 525px;
+                    border-radius: 11.6224px;
+                    background-image: url(../../image/Reboque.png);
+                    display: flex;
+                    position: relative;
+    
+                    .title {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16.2714px;
+                        line-height: 28px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 140.71px;
+    
+                    }
+    
+                    .tipo-seguro {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 35px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 53.28px;
+    
+                    }
                 }
-
-                .tipo-seguro {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 24px;
-                    line-height: 35px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 53.28px;
-
+    
+                .card4 {
+                    width: 384.7px;
+                    height: 525px;
+                    border-radius: 11.6224px;
+                    background-image: url(../../image/Furto.png);
+                    display: flex;
+                    position: relative;
+    
+                    .title {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16.2714px;
+                        line-height: 28px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 140.71px;
+    
+                    }
+    
+                    .tipo-seguro {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 35px;
+                        letter-spacing: 0.232448px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 23.24px;
+                        bottom: 53.28px;
+    
+                    }
                 }
             }
 
-            .card3 {
-                width: 384.7px;
-                height: 525px;
-                border-radius: 11.6224px;
-                background-image: url(../../image/Reboque.png);
-                display: flex;
-                position: relative;
-
-                .title {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16.2714px;
-                    line-height: 28px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 140.71px;
-
-                }
-
-                .tipo-seguro {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 24px;
-                    line-height: 35px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 53.28px;
-
-                }
-            }
-
-            .card4 {
-                width: 384.7px;
-                height: 525px;
-                border-radius: 11.6224px;
-                background-image: url(../../image/Furto.png);
-                display: flex;
-                position: relative;
-
-                .title {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16.2714px;
-                    line-height: 28px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 140.71px;
-
-                }
-
-                .tipo-seguro {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 24px;
-                    line-height: 35px;
-                    letter-spacing: 0.232448px;
-                    color: #FFFFFF;
-                    position: absolute;
-                    left: 23.24px;
-                    bottom: 53.28px;
-
-                }
-            }
+            
         }
 
         h3 {
@@ -225,3 +236,114 @@
         }
     }
 }
+
+// ----------- Responsividade para telas menores -----------
+
+@media screen and (max-width: 1670px) {
+    .container4 {
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+
+        section {
+            height: 100%;
+
+            .container-card {
+                display: flex;
+                flex-direction: column;
+                row-gap: 34px;
+            }
+        }
+    }
+}
+
+// ----------- Responsividade para telas de tablet -----------
+
+@media screen and (max-width: 825px) {
+
+        .container4 {
+            height: 2600px;
+            display: flex;
+            flex-direction: column;
+    
+            section {
+                height: 100%;
+
+                .coberturas {
+                    width: 500px;
+                    
+                }
+    
+                .container-card {
+                    height: 2200px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 34px;
+
+                    .segura-dupla {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 34px;
+
+                    }
+
+                    .segura-dupla2 {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 34px;
+                    }
+                }
+
+                h3 {
+                    font-size: 24px;
+                }
+
+            }
+        }
+    }
+
+
+// ----------- Responsividade para telas de celular -----------
+
+@media screen and (max-width: 479px) {
+
+
+        .container4 {
+            section {
+                h2 {
+                    font-size: 36px;
+                }
+
+                .coberturas {
+                    width: 360px;
+                    font-size: 16px
+                    
+                }
+    
+                .container-card {
+                    height: 2200px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 34px;
+
+                    .segura-dupla {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 34px;
+
+                    }
+
+                    .segura-dupla2 {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 34px;
+                    }
+                }
+
+                h3 {
+                    font-size: 24px;
+                }
+
+            }
+        }
+    }

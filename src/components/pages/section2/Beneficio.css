@@ -147,4 +147,73 @@
   text-align: center;
   letter-spacing: 0.669394px;
   color: #676767;
+}
+
+@media screen and (max-width: 1440px) {
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .container2 section {
+    width: 98%;
+    height: 80%;
+  }
+  .container2 section h2 {
+    width: 65%;
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .container2 section .seguraBenecifio {
+    width: 100%;
+    -moz-column-gap: 3px;
+         column-gap: 3px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container2 {
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container2 section h2 {
+    width: 100%;
+    height: auto;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .container2 section .seguraBenecifio {
+    align-items: center;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 479px) {
+  .container2 section {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .container2 section h2 {
+    width: 100%;
+    height: auto;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .container2 section .seguraBenecifio {
+    row-gap: 35px;
+  }
+  .container2 section .seguraBenecifio .Beneficio1 .texto .titulo {
+    font-size: 28px;
+  }
+  .container2 section .seguraBenecifio .Beneficio2 .texto2 .titulo2 {
+    font-size: 28px;
+    width: 405px;
+  }
+  .container2 section .seguraBenecifio .Beneficio3 .texto3 .titulo3 {
+    font-size: 28px;
+  }
 }/*# sourceMappingURL=Beneficio.css.map */

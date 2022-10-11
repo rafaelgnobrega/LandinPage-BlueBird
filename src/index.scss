@@ -1,0 +1,21 @@
+#root {
+    overflow-x: hidden;
+    
+    @media screen and (max-width: 950px){
+        .container3{
+            display: none;
+        }
+    }
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #0089fa;
+}
+

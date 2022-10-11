@@ -93,3 +93,35 @@
         }
     }
 }
+
+//----------- Responsividade para telas menores ----------
+
+@media screen and (max-width: 1670px) {
+    .container3 {
+        section {
+            .container_chat {
+                margin-right: 100px;
+
+                h1 {
+                    height: auto;
+                    font-size: 40px;
+                    line-height: 46px;
+                }
+                
+                p{
+                    height: auto;
+                    font-size: 28px;
+                    line-height: 40px;
+                }
+                
+                button {
+                    width: 300px;
+                    height: 80px;
+                    a {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
