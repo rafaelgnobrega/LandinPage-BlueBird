@@ -150,3 +150,80 @@
 
     }
 }
+
+// ----------- Responsividade para telas menores -----------
+
+@media screen and (max-width: 1244px) {
+    .container5 {
+        height: 1900px;
+        section {
+            height: 2000px;
+            justify-content: normal;
+            h2 {
+                margin-top: 40px;
+            }
+
+            .plano {
+                align-items: center;
+                row-gap: 34px;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+// ----------- Responsividade para telas mobile -----------
+
+@media screen and (max-width: 479px){
+    .container5 {
+        height: 1750px;
+
+        section {
+            h2 {
+                font-size: 36px;
+
+            }
+            .plano {
+                .plano1 {
+                    width: 350px;
+
+                    h3 {
+                        margin-top: 20px;
+                        font-size: 18px;
+                    }
+
+                    h4 {
+                        font-size: 38px;
+                    }
+                    
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                    }
+
+                    button {
+                        width: 220px;
+                        margin-bottom: 26px;
+                        
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .containerdireito {
+                        row-gap: 10px;
+                        .direito {
+                            img{
+                                width: 20px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

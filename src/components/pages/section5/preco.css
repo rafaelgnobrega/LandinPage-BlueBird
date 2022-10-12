@@ -129,4 +129,60 @@
   line-height: 31px;
   letter-spacing: 0.22654px;
   color: #252B42;
+}
+
+@media screen and (max-width: 1244px) {
+  .container5 {
+    height: 1900px;
+  }
+  .container5 section {
+    height: 2000px;
+    justify-content: normal;
+  }
+  .container5 section h2 {
+    margin-top: 40px;
+  }
+  .container5 section .plano {
+    align-items: center;
+    row-gap: 34px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 479px) {
+  .container5 {
+    height: 1750px;
+  }
+  .container5 section h2 {
+    font-size: 36px;
+  }
+  .container5 section .plano .plano1 {
+    width: 350px;
+  }
+  .container5 section .plano .plano1 h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .container5 section .plano .plano1 h4 {
+    font-size: 38px;
+  }
+  .container5 section .plano .plano1 h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .container5 section .plano .plano1 button {
+    width: 220px;
+    margin-bottom: 26px;
+  }
+  .container5 section .plano .plano1 button a {
+    font-size: 16px;
+  }
+  .container5 section .plano .plano1 .containerdireito {
+    row-gap: 10px;
+  }
+  .container5 section .plano .plano1 .containerdireito .direito img {
+    width: 20px;
+  }
+  .container5 section .plano .plano1 .containerdireito .direito p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=preco.css.map */

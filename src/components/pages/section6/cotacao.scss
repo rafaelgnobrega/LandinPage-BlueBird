@@ -33,8 +33,6 @@
             width: 100%;
             margin-bottom: 30px;
 
-
-
             h1 {
 
 
@@ -46,8 +44,6 @@
                 letter-spacing: 0.11px;
                 color: #252B42;
             }
-
-
 
             p {
 
@@ -62,14 +58,11 @@
 
         }
 
-
-
-
         form {
             height: 280px;
             display: flex;
             flex-direction: column;
-            row-gap: 21px;
+            row-gap: 30px;
             align-items: center;
 
             .container-input {
@@ -82,58 +75,64 @@
                 .esquerda {
                     display: flex;
                     flex-direction: column;
+                    row-gap: 20px;
 
-                    p {
-                        font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 30px;
-                        letter-spacing: 0.214349px;
-                        color: #6b6b6b;
-
+                    .nameInputs {
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 30px;
+                            letter-spacing: 0.214349px;
+                            color: #6b6b6b;
+    
+                        }
+    
+    
+                        input {
+                            color: black;
+                            display: flex;
+                            flex-direction: column;
+                            width: 317.24px;
+                            height: 53.59px;
+                            background: #F9F9F9;
+                            border: 1.07175px solid #E6E6E6;
+                            border-radius: 5.35873px;
+    
+                        }
                     }
-
-
-                    input {
-                        color: black;
-                        display: flex;
-                        flex-direction: column;
-                        width: 317.24px;
-                        height: 53.59px;
-                        background: #F9F9F9;
-                        border: 1.07175px solid #E6E6E6;
-                        border-radius: 5.35873px;
-
-                    }
-
                 }
 
                 .direita {
                     display: flex;
                     flex-direction: column;
+                    row-gap: 20px;
 
-                    p {
-                        font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 30px;
-                        letter-spacing: 0.214349px;
-                        color: #6b6b6b;
-
-                    }
-
-                    input {
-                        color: black;
-                        display: flex;
-                        flex-direction: column;
-                        width: 317.24px;
-                        height: 53.59px;
-                        background: #F9F9F9;
-                        border: 1.07175px solid #E6E6E6;
-                        border-radius: 5.35873px;
-
+                    .nameInputs {
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 30px;
+                            letter-spacing: 0.214349px;
+                            color: #6b6b6b;
+    
+                        }
+    
+    
+                        input {
+                            color: black;
+                            display: flex;
+                            flex-direction: column;
+                            width: 317.24px;
+                            height: 53.59px;
+                            background: #F9F9F9;
+                            border: 1.07175px solid #E6E6E6;
+                            border-radius: 5.35873px;
+    
+                        }
                     }
                 }
             }
@@ -165,6 +164,47 @@
                 border: solid 3px #000;
                 color: #000000;
                 transition: all 0.5s ease;
+            }
+        }
+    }
+}
+
+//----------- Responsividade para tablet ----------
+
+@media screen and (max-width: 680px) {
+    .container6 {
+        height: 800px;
+        align-items: center;
+        section {
+            justify-content: center;
+
+
+            .seguratexto {
+                align-items: center;
+            }
+            form {
+                height: 560px;
+
+                .container-input {
+                    align-items: center;
+                    flex-direction: column;
+                    row-gap: 20px;
+
+                }
+            }
+        }
+    }
+}
+
+//----------- Responsividade para mobile ----------
+
+@media screen and (max-width: 420px){
+    .container6 {
+        section {
+            .seguratexto {
+                p {
+                    font-size: 34px;
+                }
             }
         }
     }

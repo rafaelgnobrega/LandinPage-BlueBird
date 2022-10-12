@@ -89,3 +89,22 @@
         }
     }
 }
+
+//----------- Responsividade para telas --------------
+
+@media screen and (max-width:1435px) {
+    .container7 {
+        section {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            .contatos {
+                align-items: center;
+                .container-contatos {
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

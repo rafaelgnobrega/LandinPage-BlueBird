@@ -74,4 +74,18 @@
 .container7 section .botao button:hover {
   background-color: #0068a0;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1435px) {
+  .container7 section {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container7 section .contatos {
+    align-items: center;
+  }
+  .container7 section .contatos .container-contatos {
+    align-items: center;
+  }
 }/*# sourceMappingURL=footer.css.map */
